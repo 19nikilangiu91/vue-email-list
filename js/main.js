@@ -22,5 +22,5 @@ const { createApp } = Vue
   mounted(){
     this.emailRandom();
   }
-  
+
 }).mount('#myApp')
