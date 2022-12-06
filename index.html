@@ -10,7 +10,7 @@
 </head>
 <body>
     <ul id="myApp">{{ title }}
-        <li>{{emails}}</li>
+        <li v-for="email in emails">{{email}}</li>
     </ul>
     
     <script type="text/javascript" src="js/main.js"></script>
