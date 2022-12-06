@@ -10,7 +10,8 @@
 </head>
 <body>
     <ul id="myApp">{{ title }}
-        <li v-for="email in emails" v-show="emails.length === 10">{{email}}</li>
+                                    <!-- Bonus -->
+        <li v-for="email in emails" v-show="emails.length ===  emailsNeeded">{{email}}</li>
     </ul>
     
     <script type="text/javascript" src="js/main.js"></script>
